@@ -565,7 +565,7 @@
           "CreateAttachments": false,
           "LodOverride": null,
           "MaterialGroup": null,
-          "MaterialOverride": "water.vmat",
+          "MaterialOverride": "materials/dev/primary_white_trans.vmat",
           "Materials": {
             "indexed": {
               "0": "materials/dev/primary_white.vmat"
@@ -585,7 +585,7 @@
             "AfterUILayer": false
           },
           "RenderType": "On",
-          "Tint": "1,1,1,1"
+          "Tint": "0.25581,0.57829,1,0.55"
         },
         {
           "__type": "Sandbox.BoxCollider",
@@ -593,6 +593,103 @@
           "__enabled": true,
           "Flags": 0,
           "Center": "0,0,0",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "5bc65f95-0a53-466b-87ca-b39ac567b62b",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Ladder",
+      "Position": "190.410339,3.11139679,1.28916347",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "ladder",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "bc95dbef-bd77-4d36-8493-f88456d0f570",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": "water.vmat",
+          "Materials": null,
+          "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.ModelCollider",
+          "__guid": "2b3034f5-3920-441c-9891-e1870dac6931",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "Model": "models/rust_props/ladder_set/ladder_600.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "fef45dbc-ffba-4bf0-864b-872bc82d4637",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "5.1400013,0,121.349922",
           "ColliderFlags": 0,
           "Elasticity": null,
           "Friction": null,
@@ -608,7 +705,7 @@
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
           "RollingResistance": null,
-          "Scale": "50,50,50",
+          "Scale": "4.93992853,22.5798244,241.688965",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
@@ -655,6 +752,8 @@
   "ResourceVersion": 3,
   "Title": null,
   "Description": null,
-  "__references": [],
+  "__references": [
+    "rust.ladder_600#25206"
+  ],
   "__version": 3
 }
