@@ -172,7 +172,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -497,6 +497,48 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "59b2742b-fc43-4fc5-9618-7764f1b88c50",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "network helper",
+      "Position": "-643.440552,-368.680054,706.572876",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.NetworkHelper",
+          "__guid": "c86ef99a-e307-4220-8dca-1f782c0eb897",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PlayerPrefab": {
+            "_type": "gameobject",
+            "go": "18ea51a6-a38d-42d9-ad80-ac7e9c6290c9"
+          },
+          "SpawnPoints": [
+            {
+              "_type": "gameobject",
+              "go": "18ea51a6-a38d-42d9-ad80-ac7e9c6290c9"
+            }
+          ],
+          "StartServer": true
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
