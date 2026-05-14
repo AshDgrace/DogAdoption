@@ -499,11 +499,11 @@
       ]
     },
     {
-      "__guid": "e34acb56-e548-45bd-982f-e6fc376a4375",
+      "__guid": "59b2742b-fc43-4fc5-9618-7764f1b88c50",
       "__version": 2,
       "Flags": 0,
       "Name": "network helper",
-      "Position": "-5970.1416,-2900.66333,5374.69678",
+      "Position": "-643.440552,-368.680054,706.572876",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -516,7 +516,7 @@
       "Components": [
         {
           "__type": "Sandbox.NetworkHelper",
-          "__guid": "256c57f1-9a81-4c38-987e-383bc8d00e23",
+          "__guid": "c86ef99a-e307-4220-8dca-1f782c0eb897",
           "__enabled": true,
           "Flags": 0,
           "OnComponentDestroy": null,
@@ -561,18 +561,18 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "6385095f-d716-4198-b3e7-1312bfd88cd2"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
         }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "a861780c-b861-4a17-852d-e45d3b838909"
+        }
+      },
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },
