@@ -712,6 +712,122 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "f100ddcf-f4c3-4a1d-9fdd-a8074388f3cf",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Snot",
+      "Position": "150.226135,242.693176,1.83505678",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.HullCollider",
+          "__guid": "f35cfa87-ccb3-40ed-9e52-9bdf4f8d09f3",
+          "__enabled": true,
+          "Flags": 0,
+          "BoxSize": "50,50,50",
+          "Center": "-2.76999426,-1.27999997,0",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "Height": 66.68989,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Points": [],
+          "Radius": 37.070084,
+          "Radius2": 0,
+          "RollingResistance": null,
+          "Slices": 15,
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0",
+          "Type": "Cylinder"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "f4bb8b22-1686-4a97-a01b-0d716d01a838",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "d9b96ffa-0089-4e08-893f-a9b1713b4ef4",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 18446744073709551615,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/snot/snot.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -753,6 +869,7 @@
   "Title": null,
   "Description": null,
   "__references": [
+    "fish.snot#46280",
     "rust.ladder_600#25206"
   ],
   "__version": 3
