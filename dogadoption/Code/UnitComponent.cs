@@ -7,7 +7,11 @@ public enum TeamType
 
 	[Icon("💩")]
 	[Description("Snots, enemies, etc")]
-	Snot
+	Snot,
+
+	[Icon("🐶")]
+	[Description("Doggos, very cute")]
+	Doggo 
 }
 
 
@@ -89,6 +93,7 @@ public void HurtLotDebug()
 	{
 		Damage( 30f );
 	}
+
 
 /// <summary>
 /// Positive = hurt, Negative = heal
