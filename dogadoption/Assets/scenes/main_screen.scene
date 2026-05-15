@@ -763,24 +763,19 @@
         },
         {
           "__type": "UnitComponent",
-          "__guid": "84536adb-81a3-4eb8-a070-1821d32953c3",
+          "__guid": "e666e51e-1617-4d98-87fb-df0912c3b49e",
           "__enabled": true,
           "Flags": 0,
-          "MaxHealth": 300,
-          "ModelRenderer": {
-            "_type": "component",
-            "component_id": "d9b96ffa-0089-4e08-893f-a9b1713b4ef4",
-            "go": "f4bb8b22-1686-4a97-a01b-0d716d01a838",
-            "component_type": "SkinnedModelRenderer"
-          },
-          "Name": "Brian",
+          "MaxHealth": 100,
+          "ModelRenderer": null,
+          "Name": null,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "Team": "Snot"
+          "Team": "Player"
         }
       ],
       "Children": [
