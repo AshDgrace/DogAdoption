@@ -760,6 +760,27 @@
           "Surface": null,
           "SurfaceVelocity": "0,0,0",
           "Type": "Cylinder"
+        },
+        {
+          "__type": "UnitComponent",
+          "__guid": "84536adb-81a3-4eb8-a070-1821d32953c3",
+          "__enabled": true,
+          "Flags": 0,
+          "MaxHealth": 300,
+          "ModelRenderer": {
+            "_type": "component",
+            "component_id": "d9b96ffa-0089-4e08-893f-a9b1713b4ef4",
+            "go": "f4bb8b22-1686-4a97-a01b-0d716d01a838",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "Name": "Brian",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Team": "Snot"
         }
       ],
       "Children": [
@@ -802,9 +823,15 @@
               "OnComponentStart": null,
               "OnComponentUpdate": null,
               "Parameters": {
-                "bools": {},
+                "bools": {
+                  "dead": false,
+                  "hit": false
+                },
                 "ints": {},
-                "floats": {},
+                "floats": {
+                  "damage": 50,
+                  "health": 100
+                },
                 "vectors": {},
                 "rotations": {}
               },
