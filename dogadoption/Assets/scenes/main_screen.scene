@@ -208,7 +208,7 @@
           },
           "DeaccelerationTime": 0,
           "DuckedHeight": 20,
-          "DuckedSpeed": 2000,
+          "DuckedSpeed": 200,
           "EnableFootstepSounds": true,
           "EnablePressing": true,
           "EyeDistanceFromTop": 8,
@@ -218,7 +218,7 @@
           },
           "FootstepVolume": 1,
           "HideBodyInFirstPerson": true,
-          "JumpSpeed": 1000,
+          "JumpSpeed": 300,
           "LookSensitivity": 1,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -238,7 +238,7 @@
           "RotationAngleLimit": 45,
           "RotationSpeed": 1,
           "RunByDefault": false,
-          "RunSpeed": 1000,
+          "RunSpeed": 800,
           "ShowColliderComponents": true,
           "ShowRigidbodyComponent": true,
           "ThirdPerson": true,
@@ -249,7 +249,7 @@
           "UseFovFromPreferences": true,
           "UseInputControls": true,
           "UseLookControls": true,
-          "WalkSpeed": 110
+          "WalkSpeed": 400
         },
         {
           "__type": "Sandbox.Rigidbody",
@@ -734,6 +734,9 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
+      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "a861780c-b861-4a17-852d-e45d3b838909"
@@ -743,9 +746,6 @@
         "Data": {
           "SelectionSets": []
         }
-      },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
       }
     }
   },
