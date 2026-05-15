@@ -629,7 +629,7 @@
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
           "RollingResistance": null,
-          "Scale": "4.93992853,22.5798244,238.879379",
+          "Scale": "4.93992853,22.5798244,328.069031",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
@@ -799,7 +799,7 @@
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
           "RollingResistance": null,
-          "Scale": "4.93992853,22.5798244,238.879379",
+          "Scale": "-63.3199806,22.5798244,238.879379",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
@@ -812,7 +812,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Snot",
-      "Position": "130.036209,234.562943,7.19504547",
+      "Position": "130.036209,234.562943,-2.12496829",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -863,8 +863,8 @@
           "MaxHealth": 300,
           "ModelRenderer": {
             "_type": "component",
-            "component_id": "d9b96ffa-0089-4e08-893f-a9b1713b4ef4",
-            "go": "f4bb8b22-1686-4a97-a01b-0d716d01a838",
+            "component_id": "86ea50d7-ffb7-4579-ab82-8a2a7b2d7f5d",
+            "go": "6578b2f2-196f-49b0-9a70-e920d437c317",
             "component_type": "SkinnedModelRenderer"
           },
           "Name": "Brian",
@@ -874,7 +874,7 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null,
-          "Team": "Snot"
+          "Team": "Doggo"
         }
       ],
       "Children": [
@@ -2436,6 +2436,310 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "da1268f5-2108-4ce1-ae3c-889b97cd7dd8",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Doggo standing",
+      "Position": "92.7602692,-297.410309,81.7699814",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.HullCollider",
+          "__guid": "26d326c7-68a0-437b-afbb-c807ba116920",
+          "__enabled": true,
+          "Flags": 0,
+          "BoxSize": "63.2199936,27.1700191,40.6100044",
+          "Center": "-33.9800034,15.9000015,38.2599106",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "Height": 50,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Points": [],
+          "Radius": 25,
+          "Radius2": 0,
+          "RollingResistance": null,
+          "Slices": 16,
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0",
+          "Type": "Box"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "6578b2f2-196f-49b0-9a70-e920d437c317",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "-29.9500256,16.190012,17.1800289",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "86ea50d7-ffb7-4579-ab82-8a2a7b2d7f5d",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 18446744073709551615,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/props/capybara/capybara.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            },
+            {
+              "__type": "Sandbox.Rigidbody",
+              "__guid": "a483eacf-5bcc-4fcf-8fbd-320e651c9826",
+              "__enabled": true,
+              "Flags": 0,
+              "AngularDamping": 0,
+              "EnableImpactDamage": true,
+              "EnhancedCcd": false,
+              "Gravity": true,
+              "GravityScale": 1,
+              "ImpactDamage": 0,
+              "LinearDamping": 0,
+              "Locking": {
+                "X": false,
+                "Y": false,
+                "Z": false,
+                "Pitch": false,
+                "Yaw": false,
+                "Roll": false
+              },
+              "MassCenterOverride": "0,0,0",
+              "MassOverride": 0,
+              "MinImpactDamageSpeed": 500,
+              "MotionEnabled": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OverrideMassCenter": false,
+              "PreciseContacts": false,
+              "RigidbodyFlags": 0,
+              "SleepThreshold": 2,
+              "StartAsleep": false
+            }
+          ],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "__guid": "5d1e3149-114c-45d8-aa24-e51dc45fe8b7",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Doggo laying",
+      "Position": "122.080345,-357.100281,55.1701202",
+      "Rotation": "0,0,0.222229287,0.974994421",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.HullCollider",
+          "__guid": "1bfe378b-21c8-42fc-97c6-a5e5078007d7",
+          "__enabled": true,
+          "Flags": 0,
+          "BoxSize": "63.2199936,27.1700191,40.6100044",
+          "Center": "-33.9800034,15.9000015,38.2599106",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "Height": 50,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Points": [],
+          "Radius": 25,
+          "Radius2": 0,
+          "RollingResistance": null,
+          "Slices": 16,
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0",
+          "Type": "Box"
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "9bba2be5-8e6b-4cd2-a103-31b03efd3d98",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "-29.9500256,16.190012,18.7000465",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "b07afa5d-ddd8-4fbf-945b-b13ffd7d6376",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 18446744073709551615,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/props/capybara/capybara.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            },
+            {
+              "__type": "Sandbox.Rigidbody",
+              "__guid": "48002822-6055-439c-8eb4-fbadbdd50813",
+              "__enabled": true,
+              "Flags": 0,
+              "AngularDamping": 0,
+              "EnableImpactDamage": true,
+              "EnhancedCcd": false,
+              "Gravity": true,
+              "GravityScale": 1,
+              "ImpactDamage": 0,
+              "LinearDamping": 0,
+              "Locking": {
+                "X": false,
+                "Y": false,
+                "Z": false,
+                "Pitch": false,
+                "Yaw": false,
+                "Roll": false
+              },
+              "MassCenterOverride": "0,0,0",
+              "MassOverride": 0,
+              "MinImpactDamageSpeed": 500,
+              "MotionEnabled": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OverrideMassCenter": false,
+              "PreciseContacts": false,
+              "RigidbodyFlags": 0,
+              "SleepThreshold": 2,
+              "StartAsleep": false
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -2461,11 +2765,6 @@
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
       },
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "a861780c-b861-4a17-852d-e45d3b838909"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
@@ -2478,6 +2777,7 @@
   "Description": null,
   "__references": [
     "fish.snot#46280",
+    "mong.capybara#6776",
     "rust.ladder_600#25206"
   ],
   "__version": 3
