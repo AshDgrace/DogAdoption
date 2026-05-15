@@ -315,7 +315,7 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "Priority": 10,
-          "SwimLevel": 0.7
+          "SwimLevel": 0.5
         },
         {
           "__type": "Sandbox.Movement.MoveModeLadder",
@@ -1284,9 +1284,9 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Lake",
-          "Position": "460.205627,-209.620789,-198.074066",
+          "Position": "460.205627,-209.620789,-378.69931",
           "Rotation": "0,0,0,1",
-          "Scale": "7.64000654,7.13001585,1",
+          "Scale": "7.64000654,7.13001585,8.03002262",
           "Tags": "water",
           "Enabled": true,
           "NetworkMode": 2,
@@ -1576,7 +1576,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Mountain",
-          "Position": "474.700623,-388.15979,-215.337967",
+          "Position": "474.489502,-388.253326,-212.273224",
           "Rotation": "0.028267242,-0.0691622794,0.0289973635,0.996783137",
           "Scale": "3.42999458,3.28999782,2.61999154",
           "Tags": "",
@@ -2764,6 +2764,11 @@
     "GameObjectSystems": {
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "bbb1c69e-56a1-4ba0-a777-58776734e50a"
+        }
       },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
