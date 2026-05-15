@@ -760,6 +760,27 @@
           "Surface": null,
           "SurfaceVelocity": "0,0,0",
           "Type": "Cylinder"
+        },
+        {
+          "__type": "UnitComponent2",
+          "__guid": "17a3efff-d988-4e74-9411-b3495d211952",
+          "__enabled": true,
+          "Flags": 0,
+          "MaxHealth": 100,
+          "ModelRenderer": {
+            "_type": "component",
+            "component_id": "d9b96ffa-0089-4e08-893f-a9b1713b4ef4",
+            "go": "f4bb8b22-1686-4a97-a01b-0d716d01a838",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "Name": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Team": "Snot"
         }
       ],
       "Children": [
